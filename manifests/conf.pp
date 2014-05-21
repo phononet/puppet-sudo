@@ -65,7 +65,7 @@ define sudo::conf(
   Class['sudo'] -> Sudo::Conf[$name]
 
   if $content != undef {
-    $content_real = "${content}\n"
+    $content_real = template ( 'sudo/sudoers.erb' )
   } else {
     $content_real = undef
   }
