@@ -1,6 +1,6 @@
 {
   "name": "saz-sudo",
-  "version": "3.0.10",
+  "version": "3.0.10-1-3d6ee6d",
   "author": "saz",
   "license": "Apache-2.0",
   "summary": "Manage sudo configuration via Puppet",
